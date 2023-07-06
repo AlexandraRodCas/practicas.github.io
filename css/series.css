@@ -1,0 +1,83 @@
+/*Documento CSS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Teko', sans-serif;
+}
+
+body{
+    background-color: rgb(34,193,195);
+}
+
+hr{
+    height: 5px;
+    background-color: rgba(88, 14, 110, 0.884);
+    margin-bottom: 20px;
+    border: none;
+}
+
+h1{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.5802521692270659) 0%, rgba(191,45,253,0.4514006286108193) 100%); 
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    min-height: 400px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: rgba(190, 89, 248, 0.363);
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+.series{
+    width: 25%;
+    height: 70%;
+    
+}
+
+.series img{
+    width: 100%;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+/*Aumenta el tamaño de la imagen*/
+.series img:hover{
+    transform: scale(1.5);
+}
+
+.series p{
+    padding-top: 30px;
+    line-height: 1.5;
+}
+
+.series p::first-letter{
+    font-size: 3em;
+    float: left;
+    margin-right: 3px;
+}
+
+.pie{
+
+    margin-bottom: 50px;
+    width: 100%;
+    height: 115px;
+}
+
+
+.pie p{ 
+    text-align: center;
+    font-size: 30px;
+}

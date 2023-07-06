@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 2</title>
+</head>
+<body>
+    <header class="cabecera">
+
+    </header>
+    <section class="contenido">
+        <div>
+            <h1 >¡Queremos saber tu opinion!</h1>
+            <p>Una comida no está completa sin una buena bebida, una coca-cola es una gran convinación con cualquier tipo de comida, la puedes tomar en cualquier momento y en cualquier lugar</p>
+            <p>Coca-cola viene en todos los tamaños y en distintas presentaciones para la comodidad de nuestros consumidores</p>
+            <P>La opinión de nuestros consumidores tambien cuenta, contesta esta encuesta para recibir un código de descuento en producots coca-cola</P>
+            <p>Coca-cola más que una bebida, es un lazo para unir personas</p>
+            <img width="560" height="315" src="../img/refresco.jpg" alt="refresco">
+        </div>
+        <div>
+            <form action="#" method="post">
+                <legend>Selecciona un genero</legend>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Mujer</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Hombre</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Otro</label>
+                <br>
+                <br>
+                <legend>¿En cuál presentación prefieres una coca cola?</legend>
+                <input type="checkbox" id="vidrio" name="vidrio">
+                <label for="vidrio">De vidrio</label><br>
+          
+                <input type="checkbox" id="plastico" name="plastico">
+                <label for="plastico">De plastico</label><br>
+
+                <input type="checkbox" id="lata" name="lata">
+                <label for="lata">De lata</label><br>
+                <br>
+
+                <label for="veces">¿Cuántas veces consumes coca-cola en una semana?</label><br>
+
+                <input type="number" id="veces" name="veces" min="0" max="50"><br>
+                <br>
+
+                <label for="mensaje">Comentarios extra:</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <br>
+
+                <input type="reset" value="Reset" >
+                <input  id="image" type="image" width="100"  height="30" alt="Enviar"  src="../img/botonE.png" />
+
+
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/*Documento CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-menu{
+    background-color: #f87e7e;
+}
+
+.navbar-brand{
+    width: 130px;
+    height: 130px;
+}

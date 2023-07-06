@@ -1,0 +1,63 @@
+/*Documento CSS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecera{
+    text-align: center;
+    min-height: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #b47fbc;
+    margin-bottom: 20px;
+}
+
+h1{
+    width: 100%;
+    min-height: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #896dac;
+    color: whitesmoke;
+}
+
+.tablas{
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+table{
+    background-color: #dafada;
+}
+
+.tablas tr:first-child{
+    background-color: #b47fbc;
+}
+
+.tablas tr:nth-child(even){
+    background-color: #dbc2df;
+}
+
+.videos{
+    margin-top: 20px;
+    text-align: center;
+    display:flex;
+}
+
+.videos div{
+    width: 50%;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+ a:hover{
+    color: #b47fbc;
+}
+
+

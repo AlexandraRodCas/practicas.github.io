@@ -1,0 +1,46 @@
+/*Documento CSS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #00ff00;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #42a142;
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-image: url(../img/montana.jpg);
+}
+
+.caja{
+    display: block;
+    width: 90%;
+    min-height: 1px;
+    margin: 15px auto;
+    padding: 15px 0px 15px 50px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    
+}
+
+/*Selector ID*/
+#rojo{
+    background-color: #f09c9c;
+}
+
+.imagen{
+    margin: auto;
+    display: block;
+}
+
+.contenido p{
+    padding: 20px 15px;
+    line-height: 1.5;
+    font-size: 1.3em;
+}

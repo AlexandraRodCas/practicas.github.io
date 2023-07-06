@@ -1,0 +1,146 @@
+/*Documento CSS*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cabecera {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px 0px 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    min-height: 400px;
+    min-width: 260px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: #27ad1a4d;
+    border-radius: 13px;
+}
+
+.item {
+    width: 46%;
+    padding: 10px;
+}
+
+.contenido img {
+    width: 100%;
+    margin: 15px 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.item dd {
+    padding-left: 20px;
+}
+
+.item article div {
+    margin-bottom: 20px;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+.ubicacion i,
+.ubicacion p {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ubicacion i{
+    color: rgb(182, 6, 6);
+}
+
+.contenido h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.contenido h3{
+    font-family: 'Lato', sans-serif;
+}
+.item li {
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes ul,
+.contacto {
+    list-style: none;
+
+}
+
+.redes ul li {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.redes ul li a i {
+    font-size: 35px;
+}
+
+.cabecera a:hover, i:hover{
+    color: #96f88d7e;
+    text-decoration: underline;
+}
+
+.item a:hover{
+    color: #0e5688;
+    text-decoration: underline;
+}
+.contacto p {
+    font-size: 18px;
+    margin: 5px 0;
+}

@@ -1,0 +1,40 @@
+/*Documento CSS*/
+/*BOOTSTRAP*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecera{
+
+}
+
+.social{
+
+}
+
+.container{
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+a.item{
+    width: 33.33%;
+    text-align: center;
+    min-height: 200px;
+    font-size: 2.4em;
+    color: orange;
+}
+
+/*Pantallas mayores a 600px*/
+@media only screen and (min-width: 600px){
+    a.item{color: black}
+}
+
+/*Pantallas mayores a 780px*/
+@media only screen and (min-width: 780px){
+    .container{width: 90%;}
+    a.item{color: #b92727;
+            font-size: 4em;}
+}

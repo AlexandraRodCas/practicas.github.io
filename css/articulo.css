@@ -1,0 +1,74 @@
+/*Documento CSS*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(252, 233, 192);
+}
+
+.cabecera img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 20px;
+}
+
+.cabecera div {
+    height: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-right: 120px;
+    padding-top: 15px;
+}
+
+.contenido h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.column {
+    display: flex;
+    text-align: justify;
+    
+}
+
+.items{
+    padding: 20px;
+    height: 50%;
+    line-height: 1.5;
+}
+
+.items p:nth-child(1) {
+    padding-bottom: 30px;
+}
+
+.contenido img {
+    width: 50%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+.piearticulo div {
+    padding: 20px 20px 50px 0px;
+    text-align: right;
+}
+
+.pie{
+    margin-bottom: 70px;
+    height: 50px;
+}
+
+
+.pie div{ 
+    text-align: center;
+    font-size: 20px;
+    border-top: 3px solid black;
+    padding-top: 20px;
+}

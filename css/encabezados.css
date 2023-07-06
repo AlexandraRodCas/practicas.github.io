@@ -1,0 +1,41 @@
+/*Documento CSS*/
+
+/*Selctor universal*/
+*{
+    font-size: 20px;    
+}
+
+/*Selector de etiqueta*/
+body{
+    background-color: rgba(127, 255, 212, 0.459);
+    color: red;
+}
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2, h4{
+    color: greenyellow;
+}
+
+h3, h5{
+    color: violet;
+}
+
+p{
+    color: violet;
+}
+
+/*Selector de clase*/
+.atencion{
+    color: coral;
+}
+
+.izq{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
